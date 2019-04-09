@@ -1,0 +1,15 @@
+name: 'Sharerich'
+description: 'Responsive sharing buttons.'
+# core: 8.x
+package: 'Sharing'
+type: module
+dependencies:
+  - token:token
+  - drupal:block
+configure: entity.sharerich.collection
+
+# Information added by Drupal.org packaging script on 2018-11-27
+version: '8.x-1.2'
+core: '8.x'
+project: 'sharerich'
+datestamp: 1543318989
